@@ -6,7 +6,7 @@ import java.util.Comparator;
 import java.util.List;
 
 
-public class List_one {
+public class ArrayList_one {
     public static void main(String[] args) {
         ArrayList<Integer> list = new ArrayList<Integer>();
         list.add(1);
