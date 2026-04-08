@@ -21,10 +21,10 @@ public class one_Hasmap {
 
         System.out.println(shopingList.containsKey(3)); // complexity O(1) 
 
-        Set<Integer> integers = shopingList.keySet();
-        for (int i :integers){
-            System.out.println(shopingList.get(i));
-        }
+//        Set<Integer> integers = shopingList.keySet();
+//        for (int i :integers){
+//            System.out.println(shopingList.get(i));
+//        }
 
         Set<Map.Entry<Integer, String>> entries = shopingList.entrySet();
 
